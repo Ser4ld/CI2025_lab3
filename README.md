@@ -91,5 +91,4 @@ Each CSV contains:
 - The framework automatically selects appropriate algorithms based on edge weights
 - Negative edges trigger Bellman-Ford exclusively
 - Non-negative graphs run both Dijkstra and A* for comparison
-- All coordinates are normalized to [0,1] × [0,1] space
-- Edge weights are scaled by 1000 and rounded for numerical stability
+- Due to the high computational cost of computing all-pairs shortest paths, experiments with graph sizes of 500 and 1000 nodes were not executed.
