@@ -5,7 +5,7 @@ This project implements and compares three fundamental shortest path algorithms:
 - **A* Search** - Heuristic-guided variant of Dijkstra using Euclidean distance
 - **Bellman-Ford Algorithm** - Handles negative weights and detects negative cycles
 
-## 📊 Implemented Algorithms
+## Implemented Algorithms
 
 ### Dijkstra's Algorithm
 - **Complexity**: O((V + E) log V) with priority queue
@@ -49,7 +49,6 @@ The benchmark suite evaluates algorithm performance across multiple dimensions:
 - `False` - Non-negative weights only (Dijkstra + A*)
 - `True` - Allows negative weights (Bellman-Ford)
 
-**Total configurations**: 7 × 4 × 4 × 2 = **224 test cases**
 
 ## Usage
 
